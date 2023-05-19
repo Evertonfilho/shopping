@@ -3,16 +3,20 @@ import { Container } from "react-bootstrap";
 import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 import { Store } from "./pages/Store";
+import { NavBar } from "../src/components/NavBar";
 
 function App() {
   return (
-    <Container>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/store" element={<Store />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Container>
+    <>
+      <NavBar />
+      <Container className="mb-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Container>
+    </>
   );
 }
 
