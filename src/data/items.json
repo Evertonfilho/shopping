@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Cel1",
+    "price": 10.99,
+    "imgUrl": "/images/Cel1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cel2",
+    "price": 1199,
+    "imgUrl": "/images/Cel2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Cel3",
+    "price": 1.05,
+    "imgUrl": "/images/Cel3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cel4",
+    "price": 14000,
+    "imgUrl": "/images/Cel4.jpg"
+  }
+  ,
+  {
+    "id": 4,
+    "name": "Cel5",
+    "price": 14000,
+    "imgUrl": "/images/Cel5.jpg"
+  }
+  ,
+  {
+    "id": 4,
+    "name": "Cel6",
+    "price": 14000,
+    "imgUrl": "/images/Cel6.jpg"
+  }
+]
